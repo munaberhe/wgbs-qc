@@ -1,0 +1,17 @@
+# Local virtual environment; each developer should create their own virtual environment
+.venv/
+
+# Python's automatically generated cache files inside wgbs-qc.
+__pycache__/
+*.py[cod]
+
+# macOS finder metadata
+.DS_Store
+
+# Generated analysis outputs should not be committed.
+outputs/
+results/
+reports/
+
+# Private or large datasets should stay off public GitHub.
+data/private/
