@@ -1,0 +1,6 @@
+# chromosome  start  end  methylation_percent  methylated_count  unmethylated_count
+chr1	100	100	80.0	8	2
+chr1	200	200	50.0	4	1
+chr1	300	300	20.0	2	3
+chr1	400	400	100.0	12	8
+chr1	500	500	0.0	0	1
