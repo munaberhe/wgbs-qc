@@ -10,7 +10,7 @@ def test_read_coverage_file_returns_expected_columns():
     """Load a valid coverage file with expected columns and row counts."""
 
     # Read the small sunthetic WGBS coverage file.
-    result = read_coverage_file("data/examples_sample_1.cov")
+    result = read_coverage_file("data/example_sample_1.cov")
 
     # Check that the returned table contains the expected metadata fields.
     assert "chromosome" in result.columns
@@ -23,7 +23,7 @@ def test_read_coverage_file_returns_expected_columns():
     assert len(result) == 5
 
     # use the DataFrame returned by read_coverage_file(). 
-    assert result["sample_id"].iloc[0] == "examples_sample_1"
+    assert result["sample_id"].iloc[0] == "example_sample_1"
 
 def test_missing_coverage_file_raises_file_not_found_error():
     """Raise a clear error when the input path does not exist."""
